@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Peterlee Chess Club | Contact Us</title>
+</head>
+<body class="contact-body">
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="logo">Peterlee Chess Club</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="news.html">News</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html" class="active">Contact Us</a>
+            <a href="location.html">Find Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <p>Send us a message</p>
+    </section>
+
+    <div class="card-wrap">
+    <card class="contact-card">
+        <form action="/form_sent.html">
+            <div class="form-intro">
+                <p>Complete the form below to get in touch.  
+                We aim to respond to any queries within 5 working days.<br>
+                If you have an urgent query you may want to contact us directly on 
+                [telephone number]<br>
+                <span style="font-weight:bold">Note:</span> fields with a "<span style="color:red">*</span>" are required.</p>
+            </div>
+            <label for="name">Name<span style="color:red">*</span></label>
+            <input type="text" class="text" name="name" placeholder="e.g., John Smith" required>
+            <label for="number">Contact Number</label>
+            <input type="text" class="number" name="number" placeholder="01234 567 890">
+            <label for="email">Email Address<span style="color:red">*</span></label>
+            <input type="email" class="email" name="email" placeholder="e.g., johnsmith@inbox.com" required>
+            <label for="message">Your message<span style="color:red">*</span></label>
+            <textarea name="textmessage" id="message" placeholder="Your message please" cols="30" rows="10" required></textarea>
+            <label for="send-msg" id="send-label">Click to submit your message and details</label>
+            <br>
+            <button type="submit" id="send-msg" class="button">Send Message</button>
+            <br>
+        </form>
+    </card>
+</div>
+    
+
+    <footer>
+        <p>Copyright &copy; Chris Bowe 2021</p>
+    </footer>
+    
+</body>
+</html>
